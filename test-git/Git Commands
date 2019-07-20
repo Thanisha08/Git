@@ -6,7 +6,30 @@ $ git config --global user.email "abt.thanisha12@gmail.com"
 
 $ git config --global user.name "Thanisha08"
 
+$ git init ""
+
 $ git status
 
-$ git add.
+$ git add .
+
+$ git reset
+
+$ git diff --staged
+
+$ git diff --cached
+
+$ git diff --name-only --cached
+
+$ git log --online
+
+$ git checkout (version) (file)
+
+$ git reset HEAD (file) show 3rd commit, as already checked out  use $ git checkout (file)---[revert changes after last commit]
+
+git reset to reset the staging area to the last commit without disturbing the working directory.
+
+$ git remote add origin <url>
+
+$ git push -u origin master
+
 
